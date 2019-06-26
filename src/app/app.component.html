@@ -1,0 +1,18 @@
+
+  <nav class="navbar navbar-default">
+    <div class="navbar-header">
+      <a href="#/"><img src="assets/angular.png" class="logo" /></a>
+    </div>
+    <ul class="nav navbar-nav nav-pills">
+      <li routerLinkActive="active">
+        <a routerLink="/upload">File upload wizard</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/grid">View Data</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <main>
+    <router-outlet></router-outlet>
+  </main>
